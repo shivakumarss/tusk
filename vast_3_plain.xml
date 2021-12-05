@@ -1,0 +1,42 @@
+<VAST version="3.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<Ad id="85267fef90bdb5a480be8d43b33f1273b99a0233">
+		<InLine>
+			<AdSystem version="1">DigitalEast GmbH</AdSystem>
+			<AdTitle>Title</AdTitle>
+			<Error><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/tracke[ERRORCODE]]]></Error>
+			<Impression id="DE-Impression-ID"><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/track1]]></Impression>
+			<Creatives>
+				<Creative id="85267fef90bdb5a480be8d43b33f1273b99a0233"
+					sequence="1">
+					<Linear>
+						<Duration>00:00:22.000</Duration>
+						<TrackingEvents>
+							<Tracking event="start"><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/track2]]></Tracking>
+							<Tracking event="firstQuartile"><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/track3]]></Tracking>
+							<Tracking event="midpoint"><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/track4]]></Tracking>
+							<Tracking event="complete"><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/track5]]></Tracking>
+						</TrackingEvents>
+					
+						<MediaFiles>
+							<MediaFile id="1001" delivery="progressive"
+								type="video/mp4" bitrate="2400" width="720" height="720"
+								scalable="1" maintainAspectRatio="1" codec="H.264"><![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro.mp4]]></MediaFile>
+							<MediaFile id="1002" delivery="progressive"
+								type="video/mp4" bitrate="5400" width="1080" height="1080"
+								scalable="1" maintainAspectRatio="1" codec="H.264"><![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro.mp4]]></MediaFile>
+							<MediaFile id="1003" delivery="progressive"
+								type="video/mp4" bitrate="300" width="240" height="240"
+								scalable="1" maintainAspectRatio="1" codec="H.264"><![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro.mp4]]></MediaFile>
+							<MediaFile id="1004" delivery="progressive"
+								type="video/mp4" bitrate="600" width="360" height="360"
+								scalable="1" maintainAspectRatio="1" codec="H.264"><![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro.mp4]]></MediaFile>
+							<MediaFile id="1005" delivery="progressive"
+								type="video/mp4" bitrate="900" width="480" height="480"
+								scalable="1" maintainAspectRatio="1" codec="H.264"><![CDATA[https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro.mp4]]></MediaFile>
+						</MediaFiles>
+					</Linear>
+				</Creative>
+			</Creatives>
+		</InLine>
+	</Ad>
+</VAST>
