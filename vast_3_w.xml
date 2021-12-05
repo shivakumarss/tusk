@@ -1,0 +1,28 @@
+<VAST version="3.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<Ad id="c47285e9-6af7-485a-be77-8a5666abb4e2">
+		<Wrapper>
+			<AdSystem version="1">DigitalEast GmbH</AdSystem>
+			<AdTitle>This is title2</AdTitle>
+			<Error><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/trackw1]]></Error>
+			<Impression id="DE-Impression-ID"><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/trackw2]]></Impression>
+			<Creatives>
+				<Creative id="c47285e9-6af7-485a-be77-8a5666abb4e2"
+					sequence="1">
+					<Linear>
+						<TrackingEvents>
+							<Tracking event="start"><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/trackw3]]></Tracking>
+							<Tracking event="firstQuartile"><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/trackw4]]></Tracking>
+							<Tracking event="thirdQuartile"><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/trackw5]]></Tracking>
+							<Tracking event="complete"><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/trackw6]]></Tracking>
+						</TrackingEvents>
+						<VideoClicks>
+							<ClickThrough id="blog"><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/trackw6]]></ClickThrough>
+							<ClickTracking><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/trackw7]]></ClickTracking>
+						</VideoClicks>
+					</Linear>
+				</Creative>
+			</Creatives>
+			<VASTAdTagURI><![CDATA[https://raw.githubusercontent.com/shivakumarss/tusk/master/vast_3.xml]]></VASTAdTagURI>
+		</Wrapper>
+	</Ad>
+</VAST>
