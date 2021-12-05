@@ -16,10 +16,6 @@
 							<Tracking event="midpoint"><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/track4]]></Tracking>
 							<Tracking event="complete"><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/track5]]></Tracking>
 						</TrackingEvents>
-						<VideoClicks>
-							<ClickThrough id="blog"><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/track6]]></ClickThrough>
-							<ClickTracking><![CDATA[https://uistagingcm.digitaleast.mobi/api/v1/log/track7]]></ClickTracking>
-						</VideoClicks>
 						<MediaFiles>
 							<MediaFile id="1001" delivery="progressive"
 								type="video/mp4" bitrate="2400" width="720" height="720"
