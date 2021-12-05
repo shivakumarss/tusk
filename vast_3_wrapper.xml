@@ -22,7 +22,7 @@
 					</Linear>
 				</Creative>
 			</Creatives>
-			<VASTAdTagURI><![CDATA[https://raw.githubusercontent.com/shivakumarss/tusk/master/vast_3.xml]]></VASTAdTagURI>
+			<VASTAdTagURI><![CDATA[https://raw.githubusercontent.com/shivakumarss/tusk/master/vast_3_tag_response.xml]]></VASTAdTagURI>
 		</Wrapper>
 	</Ad>
 </VAST>
